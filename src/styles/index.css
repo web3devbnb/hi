@@ -182,7 +182,7 @@ body {
 }
 
 #toggler {
-  color: #D01961;
+  color: #6444f5;
   font-size: 24px;
   background-color: white;
   margin: 12px;
@@ -193,7 +193,7 @@ body {
 #toggler :active {
   color: white;
   font-size: 24px;
-  background-color: #D01961;
+  background-color: #6444f5;
   margin: 12px;
   padding: 4px 32px;
   border-radius: 5px;

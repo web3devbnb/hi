@@ -42,14 +42,14 @@ export default () => {
     <header className="container px-4 mx-auto py-4">
       <div className="flex flex-row justify-between items-center relative">
         <a
-          href="https://www.leadwallet.io"
+          href="https://www.WaifuMagik.com"
           className="logo flex flex-row items-center"
         >
           <img
             src="/images/full-logo.png"
             width="180"
             className="cursor-pointer"
-            alt="LEAD"
+            alt="MAGIK"
           />
         </a>
         <div className="cursor-pointer">{renderButton()}</div>
@@ -66,7 +66,7 @@ export default () => {
               "transition duration-500 ease-in-out delay-500 py-4",
               clicked ? "opacity-100" : "opacity-0"
             )}
-            href="https://www.leadwallet.io/about"
+            href="https://www.WaifuMagik.com/about"
           >
             About Us
           </a>
@@ -75,7 +75,7 @@ export default () => {
               "transition duration-500 ease-in-out delay-500 py-4",
               clicked ? "opacity-100" : "opacity-0"
             )}
-            href="https://www.leadwallet.io/token"
+            href="https://www.WaifuMagik.com/token"
           >
             The Token
           </a>
@@ -84,7 +84,7 @@ export default () => {
               "transition duration-500 ease-in-out delay-500 py-4",
               clicked ? "opacity-100" : "opacity-0"
             )}
-            href="https://www.leadwallet.io/team"
+            href="https://www.WaifuMagik.com/team"
           >
             Team
           </a>
@@ -93,7 +93,7 @@ export default () => {
               "transition duration-500 ease-in-out delay-500 py-4",
               clicked ? "opacity-100" : "opacity-0"
             )}
-            href="https://www.leadwallet.io/contact"
+            href="https://www.WaifuMagik.com/contact"
           >
             Contact Us
           </a>

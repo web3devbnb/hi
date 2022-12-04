@@ -7,14 +7,14 @@ export default () => {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
           <div>
             <a
-              href="https://leadwallet.io/"
+              href="https://WaifuMagik.com/"
               className="logo flex flex-row items-center"
             >
               <img
                 src="/images/full-logo-footer.png"
                 width="220"
                 className="cursor-pointer"
-                alt="LEAD"
+                alt="MAGIK"
               />
             </a>
             <div className="uppercase text-white text-md mb-3 mt-4 text-left">
@@ -70,7 +70,7 @@ export default () => {
                 <img src="/images/sm-medium.svg" alt="" width="20" />
               </a>
               <a
-                href="https://t.me/Leadwallet"
+                href="https://t.me/waifuMagik"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mr-4"
@@ -92,20 +92,20 @@ export default () => {
             <div>Business Console</div>
             <div>Settlement Layer</div>
             <div>Crypto Wallets</div>
-            <div>LEAD Pride</div>
+            <div>MAGIK Pride</div>
           </div> */}
           <div className="text-white leading-7 text-xs cursor-pointer flex flex-col">
             <a
-              href="https://www.leadwallet.io/about"
+              href="https://www.waifuMagik.com/about"
               className="font-Montserrat-ExtraBold uppercase"
             >
               About Us
             </a>
             {/* <div>Project</div> */}
-            <a href="https://www.leadwallet.io/contact">Contact Us</a>
-            <a href="https://www.leadwallet.io/team">Team</a>
+            <a href="https://www.waifuMagik.com/contact">Contact Us</a>
+            <a href="https://www.waifuMagik.com/team">Team</a>
             {/* <div>Ecosystem</div> */}
-            <a href="https://www.leadwallet.io/token">The Token</a>
+            <a href="https://www.waifuMagik.com/token">The Token</a>
           </div>
           {/* <div className="text-white leading-7 text-xs cursor-pointer">
             <div className="font-Montserrat-ExtraBold uppercase">Solutions</div>
@@ -119,21 +119,21 @@ export default () => {
               Documentation
             </div>
             <a
-              href="https://www.leadwallet.io/pdf/Lead Wallet Whitepaper 1_0_2.pdf"
+              href="https://www.waifuMagik.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Whitepaper
             </a>
             <a
-              href="https://leadwallet.io/privacy-policy"
+              href="https://WaifuMagik.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Privacy Policy
             </a>
             <a
-              href="https://leadwallet.io/pdf/Terms%20of%20Service.pdf"
+              href="https://WaifuMagik.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -143,7 +143,7 @@ export default () => {
         </div>
         <div className="footer-copyright text-center py-3 text-white">
         <div fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="#"> Lead Cyber Services Limited </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="#"> WAIFU MAGIC </a>
         </div>
       </div>
       </footer>

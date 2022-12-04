@@ -32,7 +32,7 @@
     "react:build": "react-scripts --max_old_space_size=4096 build",
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "build:clean": "rimraf ./build",
-    "build": "run-s build:clean build:style react:build"
+    "build": "npm run start"
   },
   "browserslist": {
     "production": [

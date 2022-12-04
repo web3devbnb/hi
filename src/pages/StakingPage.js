@@ -333,7 +333,7 @@ const HomePage = (props) => {
 
           <div className="my-2">
             Thanks for your support and feel free to{" "}
-            <a href="https://www.leadwallet.io/contact" className="text-blue-500">
+            <a href="https://www.WaifuMagik.com/contact" className="text-blue-500">
               contact us
             </a>
           </div>
@@ -381,7 +381,7 @@ const HomePage = (props) => {
               </Button>
 
               <div className="text-white text-center mt-6 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold">
-              <h1>Stake Your LEAD Token</h1>
+              <h1>Stake Your MAGIK Token</h1>
               </div>
               <div className="w-full md:w-3/6 justify-center mx-auto mt-6">  
                 <Card title="Rules">
@@ -391,13 +391,13 @@ const HomePage = (props) => {
                           1. Connect your MetaMask wallet to participate
                         </li>
                         <li>
-                          2. Stake LEAD tokens and earn daily returns from allocated pool
+                          2. Stake MAGIK tokens and earn daily returns from allocated pool
                         </li>
                         <li>
                           3. Withdraw earned rewards anytime
                         </li>
                         <li>
-                          4. Unstake LEAD tokens anytime
+                          4. Unstake MAGIK tokens anytime
                         </li>
                         <li>
                           5. Earn extra rewards by referring new members
@@ -427,7 +427,7 @@ const HomePage = (props) => {
           )}
           {accounts && (
             <div className="grid grid-col-1 md:grid-cols-2 gap-6 mt-10">
-              <Card title="Total Staked LEAD">
+              <Card title="Total Staked MAGIK">
                 <div className="flex flex-col pt-8 pb-4 text-white">
                   <div className="text-center">
                     <span className="text-white text-5xl">
@@ -436,7 +436,7 @@ const HomePage = (props) => {
                         1000000000000000000
                       ).toFixed(2)}
                     </span>
-                    <span className="text-white text-2xl ml-2">LEAD</span>
+                    <span className="text-white text-2xl ml-2">MAGIK</span>
                   </div>
                   <div className="text-center">
                     {(
@@ -457,7 +457,7 @@ const HomePage = (props) => {
                         <li>
                           Registration Fee:{"  "}
                           <span className="text-white text-2xl">
-                            {parseInt(registrationTax) / 1000000000000000000} LEAD
+                            {parseInt(registrationTax) / 1000000000000000000} MAGIK
                           </span>
                         </li>
                         <li>
@@ -475,7 +475,7 @@ const HomePage = (props) => {
                         <li>
                           Minimum Stake:{"  "}
                           <span className="text-white text-2xl">
-                            {parseInt(minStake) / 1000000000000000000} LEAD
+                            {parseInt(minStake) / 1000000000000000000} MAGIK
                           </span>
                         </li>
                       </ul>
@@ -492,19 +492,19 @@ const HomePage = (props) => {
                         Minimum amount needed:{" "}
                       </span>
                       <span className="text-white text-3xl">{parseInt(minRegister)}</span>
-                      <span className="text-white text-2xl ml-2">LEAD</span>
+                      <span className="text-white text-2xl ml-2">MAGIK</span>
                     </div>
                     <div className="text-center pb-4">
                       <span className="text-lg text-gray-400">
                         Available amount:{" "}
                       </span>
                       <span className="text-white text-3xl">{parseInt(parseInt(balance) / 1000000000000000000)}</span>
-                      <span className="text-white text-2xl ml-2">LEAD</span>
+                      <span className="text-white text-2xl ml-2">MAGIK</span>
                     </div>
                     <div className="rounded-md border-2 border-primary p-2 flex justify-between items-center">
                       <input
                         type="number"
-                        placeholder="LEAD To Stake"
+                        placeholder="MAGIK To Stake"
                         value={amount}
                         onChange={(e) => setAmount(e.target.value)}
                         className="text-white font-extrabold flex-shrink text-2xl w-full bg-transparent focus:outline-none focus:bg-white focus:text-black px-2"
@@ -544,19 +544,19 @@ const HomePage = (props) => {
                         Minimum amount needed:{" "}
                       </span>
                       <span className="text-white text-3xl">{parseInt(minStake) / 1000000000000000000}</span>
-                      <span className="text-white text-2xl ml-2">LEAD</span>
+                      <span className="text-white text-2xl ml-2">MAGIK</span>
                     </div>
                     <div className="text-center pb-4">
                       <span className="text-lg text-gray-400">
                         Available amount:{" "}
                       </span>
                       <span className="text-white text-3xl">{parseInt(parseInt(balance) / 1000000000000000000)}</span>
-                      <span className="text-white text-2xl ml-2">LEAD</span>
+                      <span className="text-white text-2xl ml-2">MAGIK</span>
                     </div>
                     <div className="rounded-md border-2 border-primary p-2 flex justify-between items-center">
                       <input
                         type="number"
-                        placeholder="LEAD To Stake"
+                        placeholder="MAGIK To Stake"
                         value={amount}
                         onChange={(e) => setAmount(e.target.value)}
                         className="text-white font-extrabold flex-shrink text-2xl w-full bg-transparent focus:outline-none focus:bg-white focus:text-black px-2"
@@ -585,7 +585,7 @@ const HomePage = (props) => {
                     <span className="text-white text-5xl">
                       {(parseFloat(totalRewards) / 1000000000000000000).toFixed(2)}
                     </span>
-                    <span className="text-white text-2xl ml-2">LEAD</span>
+                    <span className="text-white text-2xl ml-2">MAGIK</span>
                   </div>
                   <div className="flex flex-row justify-center">
                     <Button
@@ -609,7 +609,7 @@ const HomePage = (props) => {
                         <span className="text-gray-400 text-lg">
                           Staking Reward:{" "}
                         </span>
-                        {parseFloat(stakingRewards) / 1000000000000000000} LEAD
+                        {parseFloat(stakingRewards) / 1000000000000000000} MAGIK
                       </div>
                       <div>
                         <span className="text-gray-400 text-lg">
@@ -623,7 +623,7 @@ const HomePage = (props) => {
                         <span className="text-gray-400 text-lg">
                           Referral Reward:
                         </span>{" "}
-                        {parseFloat(referralRewards) / 1000000000000000000} LEAD
+                        {parseFloat(referralRewards) / 1000000000000000000} MAGIK
                       </div>
                       <div>
                         <span className="text-gray-400 text-lg">
@@ -643,12 +643,12 @@ const HomePage = (props) => {
                         Available to unstake:{" "}
                       </span>
                       <span className="text-white text-3xl">{(parseFloat(stakes) / 1000000000000000000).toFixed()}</span>
-                      <span className="text-white text-2xl ml-2">LEAD</span>
+                      <span className="text-white text-2xl ml-2">MAGIK</span>
                     </div>
                   <div className="rounded-md border-2 border-primary p-2 flex justify-between items-center">
                     <input
                       type="number"
-                      placeholder="LEAD To Unstake"
+                      placeholder="MAGIK To Unstake"
                       value={unstakeAmount}
                       onChange={(e) => setUnstakeAmount(e.target.value)}
                       className="text-white font-extrabold flex-shrink text-2xl w-full bg-transparent focus:outline-none focus:bg-white focus:text-black px-2"
